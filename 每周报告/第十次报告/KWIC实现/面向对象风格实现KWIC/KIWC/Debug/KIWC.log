@@ -1,0 +1,7 @@
+﻿  源.cpp
+F:\study\Software Engineering\exp10\KIWC\KIWC\源.cpp(35,32): warning C4018: “<”: 有符号/无符号不匹配
+F:\study\Software Engineering\exp10\KIWC\KIWC\源.cpp(41,32): warning C4018: “<”: 有符号/无符号不匹配
+F:\study\Software Engineering\exp10\KIWC\KIWC\源.cpp(59,27): warning C4018: “<”: 有符号/无符号不匹配
+F:\study\Software Engineering\exp10\KIWC\KIWC\源.cpp(60,31): warning C4018: “<”: 有符号/无符号不匹配
+F:\study\Software Engineering\exp10\KIWC\KIWC\源.cpp(72,27): warning C4018: “<”: 有符号/无符号不匹配
+  KIWC.vcxproj -> F:\study\Software Engineering\exp10\KIWC\Debug\KIWC.exe
