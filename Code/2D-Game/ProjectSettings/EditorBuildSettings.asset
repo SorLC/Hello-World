@@ -5,28 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Start.unity
     guid: 57df1e417250bc247976c2c0dc088efe
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone1.unity
     guid: a94cb8f134bf81349ad016c79b629e3d
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone2.unity
     guid: 5436c67e9267f17458b31fcdc20cd20a
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone3.unity
     guid: 4b4b0e246fc7dbb4295a38fd03241362
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone4.unity
     guid: 5b0c2d9ddd151ba489db19a4fb634327
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone5.unity
     guid: 960b12f881940d84983273421bebc695
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
     guid: 705f1f73151a73046842d4e4ec8f514d
-  - enabled: 1
+  - enabled: 0
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 0
@@ -35,34 +35,40 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scene/0_Scene_Start.unity
+    guid: 33652580fa9fabb41bbef5bd7df137ba
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scene/1_Scene_SelectLevel.unity
+    guid: 99e3d1c9ef1875f4b8b08f6a89b2905e
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/NewScene.unity
+    path: Assets/Scene/NewScene.unity
     guid: ca6397a7f4761294e8a198605a7abd89
   - enabled: 1
-    path: Assets/s2.unity
+    path: Assets/Scene/s2.unity
     guid: f2311cddcf8a9104e857a570ed9ad7f7
-  - enabled: 1
+  - enabled: 0
     path: 
-    guid: eea5a687e79f7b34e95ef0384dc8479d
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/lv3.unity
-    guid: 5817537eb6a399c48a355e4e82865829
-  - enabled: 1
-    path: Assets/s3.unity
-    guid: 81e7445a313ef4e48815790ab6c49d26
-  - enabled: 1
-    path: Assets/t3.unity
+    path: Assets/Scene/t3.unity
     guid: 9a8300c8e86886f49bc61863f247a59c
   m_configObjects: {}
