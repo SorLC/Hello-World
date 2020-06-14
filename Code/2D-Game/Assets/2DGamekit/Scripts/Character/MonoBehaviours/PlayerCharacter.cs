@@ -708,6 +708,7 @@ namespace Gamekit2D
         public void OnDie()
         {
             m_Animator.SetTrigger(m_HashDeadPara);
+            m_LastCheckpoint = null;
 
             StartCoroutine(DieRespawnCoroutine(true, false));
         }
