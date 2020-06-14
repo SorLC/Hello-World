@@ -1,5 +1,9 @@
-﻿using UnityEngine;
-
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 public class LevelSelectPanel : BasePanel
 {
     private LevelSelectButton[] levelButtons;
@@ -8,7 +12,7 @@ public class LevelSelectPanel : BasePanel
     {
         base.Awake();
 
-        levelButtons = GetComponentsInChildren<LevelSelectButton>();    
+        levelButtons = GetComponentsInChildren<LevelSelectButton>();
     }
 
     private void Start()
@@ -46,6 +50,15 @@ public class LevelSelectPanel : BasePanel
         UIManager.PushPanel(UIPanelInfo.PanelType.TaskPanel);
     }
 
+    public void Quit()
+    {
+        GameRecord.Instance.Save(GameRoot.GameRecordJsonSavePath);
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+		Application.Quit();
+#endif
+    }
     #endregion
 
 
@@ -54,4 +67,6 @@ public class LevelSelectPanel : BasePanel
     {
         GameRecord.Instance.Save(GameRoot.GameRecordJsonSavePath);
     }
+
+    
 }
